@@ -1,0 +1,35 @@
+.meta-data {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap:  22px;
+}
+.meta-data .meta-data__item {
+	font-size: 12px;
+}
+.meta-data .meta-data__item .icon {
+	font-size: 16px;
+	top: -2px;
+}
+
+.article {
+
+}
+.article .article__title {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.45;
+}
+
+.article-content {
+	padding: 18px 0 0;
+}
+
+
+
+/**
+ * Page styles
+ */
+.page-article {
+
+}

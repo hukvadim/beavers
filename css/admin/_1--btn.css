@@ -1,0 +1,55 @@
+.btn-admin {
+	--bs-btn-border-radius: 6px;
+	--bs-btn-font-weight: 600;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+} 
+.btn-admin svg {
+	stroke-width: 3px;
+	margin-right: 5px;
+}
+
+.btn-admin.btn-outline-primary {
+	--bs-btn-border-color: #E4EDFA;
+	--bs-btn-bg: #E4EDFA;
+	--bs-btn-color: #0f6fec;
+}
+
+.btn-admin.btn-icon {
+	width: 38px;
+	height: 38px;
+	padding: 0;
+}
+.btn-admin.btn-icon svg {
+	margin: 0;
+}
+.btn-admin.btn-icon.btn-sm {
+	width: 32px;
+	height: 32px;
+}
+.btn-admin.btn-icon.btn-lg {
+	width: 48px;
+	height: 48px;
+}
+
+
+.btn-filter-group {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 16px;
+	padding: 8px;
+	border-radius: 8px;
+	background: var(--admin-gray);
+}
+.btn-filter-group .btn-filter {
+	--bs-btn-font-size: 14px;
+	--bs-btn-color: #8D8F92;
+	--bs-btn-font-size: 14px;
+	--bs-btn-active-bg: var(--bs-white);
+	--bs-btn-active-color: var(--bs-primary);
+	--bs-btn-hover-bg: rgba(var(--bs-white-rgb), .32);
+	--bs-btn-hover-color: var(--bs-primary);
+	border-radius: 8px !important;
+}

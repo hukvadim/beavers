@@ -1,0 +1,9 @@
+/* For better flexibility in styles, we will split them into files */
+@import url('_0--main.css');
+@import url('_1--btn.css');
+@import url('_1--form.css');
+
+@import url('_block--sidebar.css');
+@import url('_block--card.css');
+
+@import url('_page--users.css');

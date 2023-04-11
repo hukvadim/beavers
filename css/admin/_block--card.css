@@ -1,0 +1,55 @@
+.admin-card {
+	gap: var(--admin-indent);
+	display: flex;
+	align-items: center;
+	margin-bottom: var(--admin-indent);
+	padding-bottom: var(--admin-indent);
+	border-bottom: 1px solid #f7f7f7;
+}
+.admin-card:last-child {
+	margin-bottom: 0;
+	border-bottom: none;
+}
+.admin-card .admin-card__img-hold {
+	min-width: 86px;
+}
+.admin-card .admin-card__img {
+	border-radius: 20px;
+	width: 100%;
+	max-width: 86px;
+}
+.admin-card .admin-card__text-hold {
+	padding: 0 0 2px;
+}
+.admin-card .admin-card__title {
+	font-size: 20px;
+	font-weight: 600;
+	transition: .25s;
+}
+.admin-card .admin-card__desk {
+	font-size: 14px;
+	margin: 6px 0 2px;
+	color: var(--bs-secondary);
+}
+.admin-card .admin-card__btn-list {
+	display: flex;
+	gap: var(--admin-indent);
+	margin-top: 4px;
+}
+.admin-card .admin-card__btn {
+	--bs-btn-padding-x: 0;
+}
+.admin-card .admin-card__btn {
+	font-size: 11px;	
+}
+.admin-card .admin-card__btn.btn-edit {
+
+}
+.admin-card .admin-card__btn.btn-delete {
+	--bs-btn-color: rgba(var(--bs-red-rgba), .8);
+	--bs-btn-hover-color: var(--bs-red);
+}
+.admin-card .admin-card__btn.btn-delete svg {
+	opacity: .65;
+	top: -1px;
+}

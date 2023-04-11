@@ -1,0 +1,47 @@
+.card-article {
+	--max-img-size: 380px;
+	margin-bottom: 60px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	border: none;
+	gap: 45px;
+}
+.card-article .card-img-hold {
+	min-width: 380px;
+	position: relative;
+}
+.card-article .card-img-btn-left {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.card-article .btn-category {
+	margin-bottom: 20px;
+}
+.card-article .card-body {
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	max-width: 600px;
+}
+.card-article .card-img-link {
+	max-width: var(--max-img-size);
+}
+.card-article .card-img {
+	border-radius: 30px;
+}
+.card-article .card-title {
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 18px;
+}
+.card-article .card-text {
+	font-size: 15px;
+	line-height: 1.6;
+}
+.card-article .btn-user {
+	--bs-btn-hover-color: var(--pr-link-hover);
+	margin-left: -6px;
+}

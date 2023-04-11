@@ -1,0 +1,10 @@
+.page-search {
+
+}
+.page-search .page-title {
+	display: flex;
+}
+.page-search .page-title .text-truncate {
+	display: inline-block;
+	max-width: 84%;
+}

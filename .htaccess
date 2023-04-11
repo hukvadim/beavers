@@ -1,0 +1,24 @@
+# Default encoding
+AddDefaultCharset utf-8
+
+# Redirect a page by default
+DirectoryIndex index.php
+
+# 404 error. Displaying the page
+ErrorDocument 404 /?view=404
+
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteCond %{HTTP_HOST} (.*)
+RewriteCond %{REQUEST_URI} /$ [NC]
+RewriteRule ^(.*)(/)$ $1 [L,R=301]
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ zmalov/beavers/?view=$1 [QSA]
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ zmalov/beavers/?view=$1&data1=$2 [QSA]
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ zmalov/beavers/?view=$1&data1=$2&data2=$3 [QSA]
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ zmalov/beavers/?view=$1&data1=$2&data2=$3&data3=$4 [QSA]
