@@ -25,3 +25,6 @@ Need some help, or have a question.  Get in touch:
 
 * <hukvadim@gmail.com>
 * [Submit an Issue](https://github.com/hukvadim/beavers/issues "Title")
+
+<img src="img/demo/Screenshot_1.jpg" alt="Google page speed for PC" width="997">
+<img src="img/demo/Screenshot_2.jpg" alt="Google page speed for Mobile" width="997">
