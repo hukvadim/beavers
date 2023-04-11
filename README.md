@@ -1,4 +1,4 @@
-# Beavers! A project for Zachary's exam.
+# Beavers. A project for Zachary's exam.
 
 The goal was to score 100 points on the exam. To do this, you need to develop a front-end and a back-end.
 
