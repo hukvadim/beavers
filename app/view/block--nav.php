@@ -24,7 +24,7 @@
 				if (arrExist($rivers)):
 			?>
 				<div class="nav-select-river dropdown">
-					<a class="btn btn-link btn-select-river btn-link-primary dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"><span class="text-truncate">Select river</span></a>
+					<a class="btn btn-link btn-select-river btn-link-primary dropdown-toggle" href="#" data-bs-toggle="dropdown">Select river</a>
 					<ul class="dropdown-menu">
 
 						<?php foreach ($rivers as $value): ?>
