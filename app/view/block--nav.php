@@ -36,7 +36,7 @@
 			<?php endif ?>
 
 			<form class="nav-search form-search position-relative js-nav-form-search" role="search" action="<?=setLink('search')?>">
-				<button class="btn btn-submit d-flex-center position-absolute top-0 start-0" type="submit">
+				<button class="btn btn-submit d-flex-center position-absolute top-0 start-0" type="submit" aria-label="Search">
 					<svg class="icon icon-arrow-down"><use xlink:href="#icon-arrow-down"></use></svg>
 				</button>
 				<input name="query" type="search" placeholder="Search..." class="form-control form-control-sm animate">
@@ -44,7 +44,7 @@
 
 			<ul class="navbar-nav ms-auto">
 				<li class="nav-item">
-					<a class="nav-link nav-link--icon" href="<?=(arrExist($user)) ? setLink('article-add') : '#'?>" <?=setUserTooltip($user)?> >
+					<a class="nav-link nav-link--icon" href="<?=(arrExist($user)) ? setLink('article-add') : '#'?>" <?=setUserTooltip($user)?> aria-label="Button add article">
 						<svg class="icon icon-plus-circle animate"><use xlink:href="#icon-plus-circle"></use></svg>
 					</a>
 				</li>
